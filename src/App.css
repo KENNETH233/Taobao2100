@@ -1,4 +1,5 @@
-.App {
+.app {
+  /* background:lightsalmon; */
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -12,9 +13,87 @@
   flex-direction: row;
   border: 2px solid black;
   border-radius: 3px;
-  width: 100px;
+  width: 500px;
   height: 100px;
   margin: 25px;
 }
 
 
+.containerCart{
+  display: flex;
+  flex-direction: column;
+}
+
+label{
+  color: aliceblue;
+  font-weight: 100;
+  font-size: 30px;
+}
+
+
+h1{
+  color: brown;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.title{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+p{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.item{
+align-content: center;
+border-block-style: solid;
+}
+
+.detail{
+width: 300px;
+align-content: center;
+border-color: black;
+}
+
+.money{
+align-content: center;
+}
+
+.background{
+  background-image: url('https://imgix.bustle.com/uploads/shutterstock/2019/7/19/3931f878-cd90-4172-b573-8399fdc6b5ba-shutterstock-1041249343.jpg?w=416&h=234&fit=crop&crop=faces&auto=format&q=70&dpr=2');
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* @font-face{
+  font-family: "new-mars";
+  font-style: normal;
+  font-weight: normal;
+  src:
+    url("/Users/kenneth666/Desktop/shopping-on-mars/public/font/new-mars/newmars.ttf") format('ttf'),
+    url("/Users/kenneth666/Desktop/shopping-on-mars/public/font/new-mars/newmars3d.ttf") format('ttf'),
+    url("/Users/kenneth666/Desktop/shopping-on-mars/public/font/new-mars/newmars3dital.ttf")format('ttf'),
+    url("/Users/kenneth666/Desktop/shopping-on-mars/public/font/new-mars/newmarsbold.ttf")format('ttf'),
+    url("/Users/kenneth666/Desktop/shopping-on-mars/public/font/new-mars/newmarsboldital.ttf")format('ttf'),
+    url("/Users/kenneth666/Desktop/shopping-on-mars/src/App.css")format('ttf'),
+    url("/Users/kenneth666/Desktop/shopping-on-mars/public/font/new-mars/newmarscond.ttf")format('ttf'),
+    url("/Users/kenneth666/Desktop/shopping-on-mars/public/font/new-mars/newmarscondital.ttf")format('ttf'),
+    url("/Users/kenneth666/Desktop/shopping-on-mars/public/font/new-mars/newmarsexpand.ttf")format('ttf'),
+    url("/Users/kenneth666/Desktop/shopping-on-mars/public/font/new-mars/newmarsexpandital.ttf")format('ttf'),
+    url("/Users/kenneth666/Desktop/shopping-on-mars/public/font/new-mars/newmarshalf.ttf")format('ttf'),
+    url("/Users/kenneth666/Desktop/shopping-on-mars/public/font/new-mars/newmarshalfital.ttf")format('ttf'),
+    url("/Users/kenneth666/Desktop/shopping-on-mars/public/font/new-mars/newmarsital.ttf")format('ttf'),
+    url("/Users/kenneth666/Desktop/shopping-on-mars/public/font/new-mars/newmarslaser.ttf")format('ttf'),
+    url("/Users/kenneth666/Desktop/shopping-on-mars/public/font/new-mars/newmarslaserital.ttf")format('ttf'),
+    url("/Users/kenneth666/Desktop/shopping-on-mars/public/font/new-mars/newmarsleft.ttf")format('ttf'),
+    url("/Users/kenneth666/Desktop/shopping-on-mars/public/font/new-mars/newmarsscan.ttf")format('ttf'),
+    url("/Users/kenneth666/Desktop/shopping-on-mars/public/font/new-mars/newmarsscanital.ttf")format('ttf'),
+    url("/Users/kenneth666/Desktop/shopping-on-mars/public/font/new-mars/newmarssemital.ttf")format('ttf'),
+    url("/Users/kenneth666/Desktop/shopping-on-mars/public/font/new-mars/newmarstitle.ttf")format('ttf'),
+    url("/Users/kenneth666/Desktop/shopping-on-mars/public/font/new-mars/newmarstitleital.ttf")format('ttf'),
+} */
